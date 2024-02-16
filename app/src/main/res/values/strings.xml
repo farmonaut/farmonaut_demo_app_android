@@ -1,0 +1,28 @@
+<resources>
+
+    <string-array name="months_array">
+        <item>1 Month</item>
+        <item>2 Months</item>
+        <item>3 Months</item>
+        <item>4 Months</item>
+        <item>5 Months</item>
+        <item>6 Months</item>
+        <item>7 Months</item>
+        <item>8 Months</item>
+        <item>9 Months</item>
+        <item>10 Months</item>
+        <item>11 Months</item>
+        <item>12 Months</item>
+    </string-array>
+
+    <string name="select_months">Select Months</string>
+    <string name="app_name">Farmonaut SDK</string>
+    <string name="title_activity_map">MapActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="uid">BpkwnSJdwHTjKhdm8ZWKJBO1HUn2</string>
+
+</resources>
