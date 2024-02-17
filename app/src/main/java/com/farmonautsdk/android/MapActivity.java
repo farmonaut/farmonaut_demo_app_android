@@ -166,9 +166,9 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         submitFarm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(!farmonautLogoImageView.getTag().toString().contains("farmonaut.com")){
-                    showToast("Farmonaut Logo Missing. Please restore it.");
-                }else{
+//                if(!farmonautLogoImageView.getTag().toString().contains("farmonaut.com")){
+//                    showToast("Farmonaut Logo Missing. Please restore it.");
+//                }else{
                     if(latLngList.size()>2){
                         JSONObject farmObject = new JSONObject();
                         showToast("Submitting. Please Wait.");
@@ -194,7 +194,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                     }else{
                         showToast("Please select at least 3 points");
                     }
-                }
+                //}
 
 
             }
